@@ -23,12 +23,12 @@ Target Variable Distribution:
     0 (No Purchase): 48%
     1 (Purchase): 52%
 
-The dataset can be found at this Kaggle link.
-Aim and Objectives
-Aim
+The dataset can be found at this Kaggle link https://github.com/MulweliRaymond/Predict-Customer-Purchase-Behaviour-Project
+# Aim and Objectives
+# Aim
 
 The primary aim of this project is to develop and evaluate machine learning models to predict customer purchase behavior. The project seeks to identify the most effective model in terms of accuracy, precision, recall, and F1-score.
-Objectives
+# Objectives
 
     Preprocess the dataset to handle missing values, encode categorical variables, and normalize numerical features.
     Develop and define the architecture for various machine learning models.
@@ -56,8 +56,8 @@ During the data exploration phase, we analyzed the relationships between various
 
 These insights help us understand the key factors influencing purchase behavior and guide the feature selection and model building process.
 
-Model Development and Evaluation
-Models
+# Model Development and Evaluation
+## Models
 
 We will develop and evaluate multiple models, including:
 
@@ -67,7 +67,7 @@ We will develop and evaluate multiple models, including:
     Support Vector Machine (SVM)
     Deep Learning Model (using TensorFlow/Keras)
 
-Evaluation Metrics
+# Evaluation Metrics
 
 The models will be evaluated using the following metrics:
 
