@@ -23,7 +23,7 @@ Target Variable Distribution:
     0 (No Purchase): 48%
     1 (Purchase): 52%
 
-The dataset can be found at this Kaggle link.
+The dataset can be found at this https://www.kaggle.com/datasets/rabieelkharoua/predict-customer-purchase-behavior-dataset?resource=download.
 Aim and Objectives
 Aim
 
