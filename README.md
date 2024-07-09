@@ -24,8 +24,9 @@ Target Variable Distribution:
     1 (Purchase): 52%
 
 The dataset can be found at this https://www.kaggle.com/datasets/rabieelkharoua/predict-customer-purchase-behavior-dataset?resource=download.
-Aim and Objectives
-Aim
+
+# Aim and Objectives
+# Aim
 
 The primary aim of this project is to develop and evaluate machine learning models to predict customer purchase behavior. The project seeks to identify the most effective model in terms of accuracy, precision, recall, and F1-score.
 Objectives
@@ -35,7 +36,7 @@ Objectives
     Train the models using the training dataset and validate their performance.
     Evaluate the models using various metrics, including accuracy, precision, recall, and F1-score.
     Compare the performance of the models to identify the best one for deployment.
-Data Exploration
+# Data Exploration
 
 During the data exploration phase, we analyzed the relationships between various attributes and the target variable, PurchaseStatus. Here are the key findings:
 
@@ -55,7 +56,7 @@ During the data exploration phase, we analyzed the relationships between various
         Product Category and Gender: The ratios of customers likely to make a purchase are consistent across different product categories and genders.
 
 
-Model Development and Evaluation
+# Model Development and Evaluation
 Models
 
 We will develop and evaluate multiple models, including:
