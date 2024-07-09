@@ -94,12 +94,6 @@ We evaluated several machine learning models to predict customer purchase behavi
 - The deep learning model and KNN model had the lowest accuracy, suggesting that simpler models might be more effective for this dataset.
 - Factors such as **Annual Income**, **Time Spent on Website**, and **Number of Purchases** were significant in influencing the likelihood of a purchase.
 
-### Visual Representations
-Below are visual representations of the classification report and confusion matrix for the Random Forest model:
-
-![Classification Report](Random_forest_model_metrics.png)
-![Confusion Matrix](Random_forest_confusion_matrix.png)
-
 
 
 ## Conclusion
