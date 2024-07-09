@@ -8,20 +8,20 @@ The dataset used in this project is sourced from Kaggle and contains information
 
 Features:
 
-Age: Customer's age
-Gender: Customer's gender (0: Male, 1: Female)
-Annual Income: Annual income of the customer in dollars
-Number of Purchases: Total number of purchases made by the customer
-Product Category: Category of the purchased product (0: Electronics, 1: Clothing, 2: Home Goods, 3: Beauty, 4: Sports)
-Time Spent on Website: Time spent by the customer on the website in minutes
-Loyalty Program: Whether the customer is a member of the loyalty program (0: No, 1: Yes)
-Discounts Availed: Number of discounts availed by the customer (range: 0-5)
-PurchaseStatus (Target Variable): Likelihood of the customer making a purchase (0: No, 1: Yes)
+  Age: Customer's age
+  Gender: Customer's gender (0: Male, 1: Female)
+  Annual Income: Annual income of the customer in dollars
+  Number of Purchases: Total number of purchases made by the customer
+  Product Category: Category of the purchased product (0: Electronics, 1: Clothing, 2: Home Goods, 3: Beauty, 4: Sports)
+  Time Spent on Website: Time spent by the customer on the website in minutes
+  Loyalty Program: Whether the customer is a member of the loyalty program (0: No, 1: Yes)
+  Discounts Availed: Number of discounts availed by the customer (range: 0-5)
+  PurchaseStatus (Target Variable): Likelihood of the customer making a purchase (0: No, 1: Yes)
 
 Target Variable Distribution:
 
-0 (No Purchase): 48%
-1 (Purchase): 52%
+  0 (No Purchase): 48%
+  1 (Purchase): 52%
 
 The dataset can be found at this https://www.kaggle.com/datasets/rabieelkharoua/predict-customer-purchase-behavior-dataset?resource=download.
 
@@ -41,11 +41,11 @@ Compare the performance of the models to identify the best one for deployment.
 During the data exploration phase, we analyzed the relationships between various attributes and the target variable, PurchaseStatus. Here are the key findings:
 
 Positively Correlated Variables:
-AnnualIncome: Higher annual income is associated with a higher likelihood of making a purchase.
-NumberOfPurchases: Customers with a higher number of past purchases are more likely to make a purchase.
-TimeSpentOnWebsite: Increased time spent on the website correlates with a higher likelihood of purchase.
-LoyaltyProgram: Customers enrolled in the loyalty program are more likely to make a purchase.
-DiscountsAvailed: Customers who availed more discounts are more likely to make a purchase.
+  AnnualIncome: Higher annual income is associated with a higher likelihood of making a purchase.
+  NumberOfPurchases: Customers with a higher number of past purchases are more likely to make a purchase.
+  TimeSpentOnWebsite: Increased time spent on the website correlates with a higher likelihood of purchase.
+  LoyaltyProgram: Customers enrolled in the loyalty program are more likely to make a purchase.
+  DiscountsAvailed: Customers who availed more discounts are more likely to make a purchase.
 
 Negatively Correlated Variable:
 Age: Older customers are less likely to make a purchase compared to younger customers.
@@ -61,10 +61,10 @@ Product Category and Gender: The ratios of customers likely to make a purchase a
 
 We will develop and evaluate multiple models, including:
 
-Logistic Regression
-Random Forest
-K-Nearest Neighbors (KNN)
-Support Vector Machine (SVM)
+Logistic Regression,
+Random Forest,
+K-Nearest Neighbors (KNN),
+Support Vector Machine (SVM), and
 Deep Learning Model (using TensorFlow/Keras)
 
 ## Evaluation Metrics
