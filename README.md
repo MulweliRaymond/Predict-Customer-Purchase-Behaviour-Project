@@ -1,5 +1,5 @@
 # Predict-Customer-Purchase-Behaviour-Project
-Background
+# Background
 
 Understanding customer purchase behavior is crucial for businesses to tailor their marketing strategies and improve sales. This project aims to predict whether a customer will make a purchase based on various demographic and behavioral attributes. By leveraging machine learning techniques, we can gain insights into the factors influencing purchase decisions and help businesses target their efforts more effectively.
 Dataset Description
